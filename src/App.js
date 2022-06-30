@@ -17,10 +17,10 @@ function App() {
       <Routes>
         <Route path='/' exact component={Home} />
         <Route path='/about' component={About} />
-        <Route path='/events' component={Committee} />
-        <Route path='/annual' component={Sponsors} />
-        <Route path='/team' component={Gallery} />
-        <Route path='/blogs' component={Contacts} />
+        <Route path='/committee' component={Committee} />
+        <Route path='/sponsors' component={Sponsors} />
+        <Route path='/gallery' component={Gallery} />
+        <Route path='/contacts' component={Contacts} />
       </Routes>
     </Router>
   );
