@@ -11,3 +11,8 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+
+  a.join{
+    font-size: 20px;
+    color: white;
+  }
