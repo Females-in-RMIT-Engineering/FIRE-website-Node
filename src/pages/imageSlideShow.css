@@ -1,0 +1,36 @@
+.slide-container {
+    direction: ltr;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-slideshow-container .nav[data-type="prev"] span {
+    margin-left: 5px;
+    border-right: none;
+    border-top: none;
+}
+
+.react-slideshow-container .nav[data-type="next"] span {
+    margin-right: 5px;
+    border-left: none;
+    border-bottom: none;
+}
+
+.each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+}
+
+.react-slideshow-container + div.indicators > div:last-of-type {
+    margin-right: 10px;
+}
+  

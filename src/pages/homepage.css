@@ -60,10 +60,25 @@ a.join{
 }
 
 .content .inclusive{
-    color: #EC6C09;
+    color: #D03807;
 }
 
 .content .socials{
     justify-content: center;
     text-align: center;
+}
+
+p.statement{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 10%;
+    color: #D03807;
+}
+
+p.byLine{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 10%;
 }

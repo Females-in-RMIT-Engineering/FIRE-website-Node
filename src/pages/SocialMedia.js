@@ -5,7 +5,7 @@ import {
     faDiscord,
     faFacebook,
     faLinkedin,
-    faInstagram,
+    faInstagramSquare,
     faTiktok
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -14,10 +14,9 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function SocialFollow() {
   return (
     <div class="social-container">
-      <h2>Social Follow</h2>
 
       <a target={"_blank"} rel='noreferrer' href="https://www.instagram.com/firengineering_/" class="social">
-        <FontAwesomeIcon icon={faInstagram} size="3x" /> 
+        <FontAwesomeIcon icon={faInstagramSquare} size="3x" /> 
       </a>
 
       <a target={"_blank"} rel='noreferrer' href="https://www.facebook.com/firengineering/" class="social">
