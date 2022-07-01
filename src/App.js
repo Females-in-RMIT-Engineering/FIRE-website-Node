@@ -1,8 +1,8 @@
 import React from 'react';
 import "./App.css";
 
-import NavigationBar from './components/NavBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from "./pages/Layout";
 import Home from './pages';
 import About from './pages/about';
 import Committee from './pages/committee';
@@ -13,14 +13,15 @@ import Contacts from './pages/contacts';
 function App() {
   return (
     <Router>
-      <NavigationBar />
       <Routes>
-        <Route path='/' exact component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/committee' component={Committee} />
-        <Route path='/sponsors' component={Sponsors} />
-        <Route path='/gallery' component={Gallery} />
-        <Route path='/contacts' component={Contacts} />
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="committee" element={<Committee />} />
+        <Route path="sponsors" element={<Sponsors />} />
+        <Route path="gallery" element={<Gallery />}/>
+        <Route path="contacts" element={<Contacts />} />
+      </Route>  
       </Routes>
     </Router>
   );

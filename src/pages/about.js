@@ -1,11 +1,16 @@
 import React from 'react';
+import "./about.css";
   
-const About = () => {
+function About() {
   return (
-    <>
-      <h1>About Us</h1>
-    </>
+      <div>
+        <div class='headingAbout'>
+          <h1>About Us</h1> 
+        </div>
+      </div>
   );
 };
+
+
 
 export default About;

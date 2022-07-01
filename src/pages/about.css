@@ -5,14 +5,25 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+}
   
-  code {
+code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
-  }
+}
 
-  a.join{
+a.join{
     font-size: 20px;
     color: white;
-  }
+}
+
+.headingAbout{
+    background-color: white;
+}
+
+.headingAbout h1{
+    justify-content: left;
+    margin-left: 15%;
+    color: #000;
+    font-size: 80px;
+}
