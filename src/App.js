@@ -10,20 +10,28 @@ import Sponsors from './pages/sponsors';
 import Gallery from './pages/gallery';
 import Contacts from './pages/contacts';
 
+import Footer from './pages/Footer';
+
 function App() {
   return (
-    <Router>
-      <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="committee" element={<Committee />} />
-        <Route path="sponsors" element={<Sponsors />} />
-        <Route path="gallery" element={<Gallery />}/>
-        <Route path="contacts" element={<Contacts />} />
-      </Route>  
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="committee" element={<Committee />} />
+          <Route path="sponsors" element={<Sponsors />} />
+          <Route path="gallery" element={<Gallery />}/>
+          <Route path="contacts" element={<Contacts />} />
+        </Route>  
+        </Routes>
+      </Router>
+
+      <div class = 'footer'>
+            <Footer />
+      </div>
+    </>
   );
 }
 

@@ -1,12 +1,17 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./homepage.css";
 import SocialFollow from "./SocialMedia";
 import Slideshow from "./imageSlideShow";
+//import Slideshow from "./slideshow";
+//import Footer from "./Footer";
 
 const Home = () => {
     return (
       <div>
-
+        <Helmet>
+            <title>FIRE+ | Home</title>
+        </Helmet>
         <div class = 'heading'>
             <h3>FIRE+</h3>
             <h1>FEMALES+ IN RMIT <br /> ENGINEERING</h1>
@@ -29,8 +34,8 @@ const Home = () => {
             <p class = 'byLine'>
                 — Females+ in RMIT Engineering (FIRE+)
             </p>
+            <br />
         </div>
-
       </div>
     );
   };

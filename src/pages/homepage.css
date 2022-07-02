@@ -19,6 +19,7 @@ a.join{
 
 #root{
     background-color: #EC6C09;
+    padding-bottom:60px;
 }
 
 .heading{
@@ -72,7 +73,7 @@ p.statement{
     font-size: 30px;
     text-align: left;
     margin-left: 15%;
-    margin-right: 10%;
+    margin-right: 15%;
     color: #D03807;
 }
 
@@ -82,3 +83,10 @@ p.byLine{
     margin-left: 15%;
     margin-right: 10%;
 }
+
+/*.footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    right:0;
+}*/

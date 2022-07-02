@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
   
 const Committee = () => {
   return (
@@ -10,6 +11,9 @@ const Committee = () => {
         height: '100vh'
       }}
     >
+      <Helmet>
+            <title>FIRE+ | Committee</title>
+      </Helmet>
       <h1>Meet the FIRE+ Committee</h1>
     </div>
   );

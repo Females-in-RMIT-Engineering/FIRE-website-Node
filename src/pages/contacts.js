@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
   
 const Contacts = () => {
   return (
@@ -10,6 +11,9 @@ const Contacts = () => {
         height: '100vh'
       }}
     >
+      <Helmet>
+            <title>FIRE+ | Contact Us</title>
+      </Helmet>
       <h1>Contact Us</h1>
     </div>
   );
