@@ -17,46 +17,38 @@ a.join{
     color: white;
 }
 
-.contentAbout h1{
-    justify-content: center;
-    text-align: center;
-    font-size: 40px;
-}
-
-.contentAbout .differentColor{
-    color: #D03807;
-}
-
-.contentAbout{
+.ContactContent{
     background-color: white;
 }
 
-.contentAbout p{
+.ContactContent h1{
+    color: #EC6C09;
+    font-size: 60px;
+    text-align: center;
+}
+
+.ContactContent p{
     font-size: 20px;
-    text-align: left;
-    margin-left: 15%;
-    margin-right: 15%;
-    color: black;
 }
 
-.contentAbout ul{
-    text-align: left;
-    margin-left: 15%;
-    margin-right: 15%;
+.ContactContent a{
+  color: rgb(0, 0, 0);
+  font-size: 19px;
+  text-decoration: none;
 }
 
-.contentAbout li{
-    font-size: 18px;
-    color: black;
+.ContactContent a:hover{
+    color: #EC6C09;
+    transition: 200ms ease-in;
 }
 
-.contentAbout .row{
+.ContactContent .ContactRow{
   display: grid;
-  margin-left: 19.5%;
+  margin-left: 12%;
   margin-right: 15%;
   grid-template-columns: repeat(auto-fill, 
                          minmax(185px, 1fr));
-  grid-gap: 50px;
+  grid-gap: 225px;
    
   @media (max-width: 794px) {
     grid-template-columns: repeat(auto-fill, 
@@ -64,6 +56,7 @@ a.join{
   }
 }
 
-.contentAbout .column{
-    width: 100%;
+.ContactContent .ContactColumn{
+  text-align: left;
+  width: 550px;
 }

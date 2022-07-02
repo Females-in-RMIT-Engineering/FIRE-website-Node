@@ -9,6 +9,7 @@ import Committee from './pages/committee';
 import Sponsors from './pages/sponsors';
 import Gallery from './pages/gallery';
 import Contacts from './pages/contacts';
+import FAQs from './pages/faqs';
 
 import Footer from './pages/Footer';
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="sponsors" element={<Sponsors />} />
           <Route path="gallery" element={<Gallery />}/>
           <Route path="contacts" element={<Contacts />} />
+          <Route path="faqs" element={<FAQs />} />
         </Route>  
         </Routes>
       </Router>

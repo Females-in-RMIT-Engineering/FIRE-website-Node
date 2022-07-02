@@ -34,6 +34,9 @@ const NavigationBar = () => {
           <NavLink to='/contacts' activeStyle>
             Contact Us
           </NavLink>
+          <NavLink to='/faqs' activeStyle>
+            FAQs
+          </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>

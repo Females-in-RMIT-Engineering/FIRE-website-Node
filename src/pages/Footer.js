@@ -37,7 +37,7 @@ const Footer = () => {
                 <ColumnFooter>
                     <br /><br />
                     <FooterLink href="#">Upcoming Events</FooterLink>
-                    <FooterLink href="/contacts">FAQs</FooterLink>
+                    <FooterLink href="/faqs">FAQs</FooterLink>
                 </ColumnFooter>
                 <ColumnFooter>
                     <HeadingFooterSocial style={{ marginBottom: "4px" }}>Social Media</HeadingFooterSocial>
