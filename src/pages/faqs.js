@@ -10,7 +10,7 @@ const dataPart1 = {
       title: "Do I have to pay for a FIRE+ membership?",
       content: `No, FIRE's 2022 membership is completely free for RMIT students! 
                 Just sign up by filling out the form linked below. <br />
-                <a style={{color: '#EC6C09'}} href="https://docs.google.com/forms/d/e/1FAIpQLSfhd4fiAH9qcjkvYebNE1pXbK_DYSGB6CfVaE25LLi77exc6Q/viewform" target={'_blank'} rel='noreferrer'>Sign up Here!</a>`
+                <a style={{color: '#EC6C09'}} href="https://docs.google.com/forms/d/e/1FAIpQLSfhd4fiAH9qcjkvYebNE1pXbK_DYSGB6CfVaE25LLi77exc6Q/viewform" target={'_blank'} rel='noreferrer'>[FIRE+ 2022 Membership Form]</a>`
     },
     {
       title: "What do I get out of joining the FIRE+ club?",

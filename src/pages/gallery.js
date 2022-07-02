@@ -1,20 +1,27 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
+import "./gallery.css";
   
 const Gallery = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh'
-      }}
-    >
+    <div>
       <Helmet>
             <title>FIRE+ | Gallery</title>
       </Helmet>
-      <h1>Gallery</h1>
+
+      <div class = 'galleryContent'>
+        <br />
+
+        <h1 style={{ marginBottom: "-10px" }}>Gallery</h1>
+        
+        <p class = 'galleryheading'>
+            Past Events Gallery
+        </p>
+
+        <br />
+      </div>
+      
+
     </div>
   );
 };

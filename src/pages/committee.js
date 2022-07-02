@@ -1,20 +1,26 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
+import "./committee.css";
   
 const Committee = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh'
-      }}
-    >
+    <div>
       <Helmet>
             <title>FIRE+ | Committee</title>
       </Helmet>
-      <h1>Meet the FIRE+ Committee</h1>
+
+      <div class = 'committeeContent'>
+        <br />
+        <h1>Meet the FIRE+ Committee</h1>
+
+        <h2><span class = 'Fontcolor'>Executive</span> Team </h2>
+        <h2><span class = 'Fontcolor'>Newsletter </span> Team </h2>
+        <h2><span class = 'Fontcolor'>Industry Events </span> Team </h2>
+        <h2><span class = 'Fontcolor'>Social Events </span> Team </h2>
+        <h2><span class = 'Fontcolor'>Social Media </span> Team </h2>
+
+        <br />
+      </div>
     </div>
   );
 };
