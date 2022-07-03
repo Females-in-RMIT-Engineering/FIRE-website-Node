@@ -8,7 +8,7 @@ import {
   NavBtn,
 } from './NavbarElements';
 
-import Logo from './logo.png';
+import WebsiteLogo from './websiteLogo.png';
   
 const NavigationBar = () => {
   return (
@@ -17,7 +17,7 @@ const NavigationBar = () => {
         <Bars />
         <NavMenu>
           <NavLogo to='/' activeStyle>
-            <img src={Logo} alt='FIRE logo' height={100}/>
+            <img src={WebsiteLogo} alt='FIRE logo' height={100}/>
           </NavLogo>
           <NavLink to='/about' activeStyle>
             About Us
