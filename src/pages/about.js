@@ -21,7 +21,7 @@ function About() {
           Founded in 2019, Females+ in RMIT Engineering (FIRE+) is a student organization for engineering and 
           aviation students who want STEM to be inclusive for all individuals. The FIRE+ community aims to 
           support womxn, non-binary and gender nonconforming students at RMIT University. FIRE+ organizes 
-          social & industry events and initiatives to support, engage and empower our members.
+          social and industry events & initiatives to support, engage and empower our members.
           </p>
 
           <h1><span class = 'differentColor'> Our </span> Objectives </h1> 
