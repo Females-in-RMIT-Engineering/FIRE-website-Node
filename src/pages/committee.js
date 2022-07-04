@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
-import "./committee.css";
+import "./pagesCSS/committee.css";
   
 const Committee = () => {
   return (

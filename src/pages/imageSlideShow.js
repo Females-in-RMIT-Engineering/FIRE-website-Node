@@ -3,12 +3,12 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import "./imageSlideShow.css";
 
-import boat1 from "./boat-party-1.jpg";
-import boat2 from "./boat-party-2.jpg";
-import welcome1 from "./welcome-night-1.jpg";
-import welcome2 from "./welcome-night-2.jpg";
-import industry1 from "./industry-night-1.jpg";
-import industry2 from "./industry-night-2.jpg";
+import boat1 from "./images/boat-party-1.jpg";
+import boat2 from "./images/boat-party-2.jpg";
+import welcome1 from "./images/welcome-night-1.jpg";
+import welcome2 from "./images/welcome-night-2.jpg";
+import industry1 from "./images/industry-night-1.jpg";
+import industry2 from "./images/industry-night-2.jpg";
 
 const slideImages = [
   boat1, boat2, welcome1, welcome2, industry1, industry2

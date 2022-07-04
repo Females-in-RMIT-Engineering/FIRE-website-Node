@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
 import Faq from "react-faq-component";
-import "./faq.css";
+import "./pagesCSS/faq.css";
 
 const dataPart1 = {
   title: "Memberships",

@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import "./homepage.css";
+import "./pagesCSS/homepage.css";
 import SocialFollow from "./SocialMedia";
 import Slideshow from "./imageSlideShow";
 //import Slideshow from "./slideshow";

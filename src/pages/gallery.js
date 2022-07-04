@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
-import "./gallery.css";
+import "./pagesCSS/gallery.css";
   
 const Gallery = () => {
   return (
@@ -13,7 +13,7 @@ const Gallery = () => {
         <br />
 
         <h1 style={{ marginBottom: "-10px" }}>Gallery</h1>
-        
+
         <p class = 'galleryheading'>
             Past Events Gallery
         </p>

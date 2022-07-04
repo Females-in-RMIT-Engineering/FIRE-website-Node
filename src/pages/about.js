@@ -1,10 +1,10 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
-import "./about.css";
+import "./pagesCSS/about.css";
 
-import websitelogo from "./logo.png";
-import RMITlogo from "./RMIT logo.png";
-import RUSUlogo from "./RUSU logo.jpg";
+import websitelogo from "./logos/WebsiteLogo.png";
+import RMITlogo from "./logos/RMITLogo.png";
+import RUSUlogo from "./logos/RUSULogo.jpg";
   
 function About() {
   return (

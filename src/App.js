@@ -2,7 +2,7 @@ import React from 'react';
 import "./App.css";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from "./pages/Layout";
+import Layout from "./Layout";
 import Home from './pages';
 import About from './pages/about';
 import Committee from './pages/committee';
@@ -11,7 +11,7 @@ import Gallery from './pages/gallery';
 import Contacts from './pages/contacts';
 import FAQs from './pages/faqs';
 
-import Footer from './pages/Footer';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
-import "./contacts.css";
+import "./pagesCSS/contacts.css";
 
-import committeePicture from "./committeePicture.jpg";
+import committeePicture from "./images/committeePicture.jpg";
   
 const Contacts = () => {
   return (
