@@ -2,13 +2,13 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 import "./pagesCSS/sponsors.css";
 
-import JohnHollandLogo from './logos/JohnHollandLogo.png';
-import AmazonLogo from './logos/AmazonLogo.png';
-import StantecLogo from './logos/StantecLogo.png';
-import SystraLogo from './logos/SystraLogo.png';
-import TelstraLogo from './logos/TelstraLogo.png';
-import APALogo from './logos/APALogo.png';
-import AECOMLogo from './logos/AECOMLogo.png';
+import JohnHollandLogo from './pagesResources/logos/JohnHollandLogo.png';
+import AmazonLogo from './pagesResources/logos/AmazonLogo.png';
+import StantecLogo from './pagesResources/logos/StantecLogo.png';
+import SystraLogo from './pagesResources/logos/SystraLogo.png';
+import TelstraLogo from './pagesResources/logos/TelstraLogo.png';
+import APALogo from './pagesResources/logos/APALogo.png';
+import AECOMLogo from './pagesResources/logos/AECOMLogo.png';
 
 const Sponsors = () => {
     return (

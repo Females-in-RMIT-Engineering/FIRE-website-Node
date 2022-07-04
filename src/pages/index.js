@@ -1,8 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import "./pagesCSS/homepage.css";
-import SocialFollow from "./SocialMedia";
-import Slideshow from "./imageSlideShow";
+import SocialFollow from "./pagesResources/SocialMedia";
+import Slideshow from "./pagesResources/imageSlideShow";
 //import Slideshow from "./slideshow";
 //import Footer from "./Footer";
 
