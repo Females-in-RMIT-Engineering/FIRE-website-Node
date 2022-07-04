@@ -2,9 +2,9 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 import "./pagesCSS/about.css";
 
-import websitelogo from "./logos/WebsiteLogo.png";
-import RMITlogo from "./logos/RMITLogo.png";
-import RUSUlogo from "./logos/RUSULogo.jpg";
+import websitelogo from "./pagesResources/logos/FIREWebsiteLogo.png";
+import RMITlogo from "./pagesResources/logos/RMITLogo.png";
+import RUSUlogo from "./pagesResources/logos/RUSULogo.jpg";
   
 function About() {
   return (
@@ -54,7 +54,7 @@ function About() {
 
           <div class = 'row'>
             <div class = 'column'>
-              <img src={websitelogo} alt = 'FIRE+ website logo' height={100}/>
+              <img src={websitelogo} alt = 'FIRE+ website logo' height={90}/>
             </div>
             <div class = 'column'>
               <img src={RUSUlogo} alt = 'RUSU logo' height={80}/>
