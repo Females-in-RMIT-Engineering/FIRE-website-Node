@@ -61,3 +61,36 @@ a.join{
     margin-left: 5%;
     margin-right: 5%;
 }
+
+a.faqLinks{
+    transition: transform 250ms;
+    display: inline-block;
+    color: #C03700;
+    text-decoration: none;
+}
+
+a.faqLinks:hover{
+    transform: translateY(-2px);
+}
+
+a.faqLinksForm{
+    transition: transform 250ms;
+    display: inline-block;
+    color: #C03700;
+}
+
+a.faqLinksForm:hover{
+    transform: translateY(-2px);
+}
+
+a.faqLinksHeading{
+    margin: 0 0.4rem;
+    transition: transform 250ms;
+    display: inline-block;
+    color: #C03700;
+    text-decoration: none;
+}
+
+a.faqLinksHeading:hover{
+    transform: translateY(-2px);
+}

@@ -24,6 +24,9 @@ export const NavLink = styled(Link)`
   &.active {
     color: #000000;
   }
+  &:hover{
+    color: #000000;
+  }
 `;
 
 export const NavLogo = styled(Link)`
@@ -34,7 +37,7 @@ text-decoration: none;
 font-size: 2rem;
 display: flex;
 align-items: center;
-`
+`;
   
 export const Bars = styled(FaBars)`
   display: none;

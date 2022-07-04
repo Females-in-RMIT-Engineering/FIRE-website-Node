@@ -10,7 +10,7 @@ const dataPart1 = {
       title: "Do I have to pay for a FIRE+ membership?",
       content: `No, FIRE's 2022 membership is completely free for RMIT students! 
                 Just sign up by filling out the form linked below. <br />
-                <a style={{color: '#EC6C09'}} href="https://docs.google.com/forms/d/e/1FAIpQLSfhd4fiAH9qcjkvYebNE1pXbK_DYSGB6CfVaE25LLi77exc6Q/viewform" target={'_blank'} rel='noreferrer'>[FIRE+ 2022 Membership Form]</a>`
+                <a style={{color: '#EC6C09'}} href="https://docs.google.com/forms/d/e/1FAIpQLSfhd4fiAH9qcjkvYebNE1pXbK_DYSGB6CfVaE25LLi77exc6Q/viewform" target={'_blank'} rel='noreferrer' class = "faqLinksForm">FIRE+ 2022 Membership Form - Sign Up Here</a>`
     },
     {
       title: "What do I get out of joining the FIRE+ club?",
@@ -47,7 +47,7 @@ const dataPart2 = {
       content:
       `If you are interested in hosting an event with FIRE, contact our student committee through email 
       at
-      <a target={"_blank"} rel='noreferrer' href="mailto:firengineering@rmit.edu.au" class="social">[firengineering@rmit.edu.au]</a>`
+      <a target={"_blank"} rel='noreferrer' href="mailto:firengineering@rmit.edu.au" class = "faqLinks">firengineering@rmit.edu.au</a>`
     }
   ]
 };
@@ -59,7 +59,7 @@ const dataPart3 = {
       title: "I have an opportunity I think FIRE+ members would be interested in. How do I share it?",
       content: `We can share your opportunity with our members in our club newsletter or on social media. 
                 Email us at
-                <a target={"_blank"} rel='noreferrer' href="mailto:firengineering@rmit.edu.au" class="social">[firengineering@rmit.edu.au]</a> 
+                <a target={"_blank"} rel='noreferrer' href="mailto:firengineering@rmit.edu.au" class = "faqLinks">firengineering@rmit.edu.au</a> 
                 or send us a message on Facebook to get in touch.`
     },
     {
@@ -70,7 +70,7 @@ const dataPart3 = {
       culture to passionate, high achieving students from a range of disciplines.
       <br />
       Please contact the club executives at 
-      <a target={"_blank"} rel='noreferrer' href="mailto:firengineering@rmit.edu.au" class="social">[firengineering@rmit.edu.au]</a>
+      <a target={"_blank"} rel='noreferrer' href="mailto:firengineering@rmit.edu.au" class = "faqLinks">firengineering@rmit.edu.au</a>
       to inquire about supporting FIRE.`
     }
   ]
@@ -80,7 +80,7 @@ const styles = {
   // bgColor: 'white',
   //titleTextColor: "blue",
   // rowContentColor: 'grey',
-  arrowColor: "#D03807"
+  arrowColor: "#C03700"
 };
 
 const config = {
@@ -102,7 +102,9 @@ const FAQs = () => {
           <h1 style={{ marginBottom: "-10px" }}>FAQs</h1>
 
           <p class = 'faqheading'>
-            Couldn't find what you are looking for? Send us an email at firengineering@rmit.edu.au</p>
+            Couldn't find what you are looking for? Send us an email at 
+            <a target={"_blank"} rel='noreferrer' href="mailto:firengineering@rmit.edu.au" class = "faqLinksHeading">firengineering@rmit.edu.au </a>
+            </p>
 
           <div class = 'faqs'>
             <div>
