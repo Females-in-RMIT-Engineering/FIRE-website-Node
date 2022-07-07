@@ -1,5 +1,11 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+
+//import Calendar from "@ericz1803/react-google-calendar";
+//AIzaSyB6t7lcRDHvKdH_pcJ1mlCwhbO-krDntJg
+
+import Calendar from "./pagesResources/eventsCalendar";
+
 import "./pagesCSS/homepage.css";
 import SocialFollow from "./pagesResources/SocialMedia";
 import Slideshow from "./pagesResources/imageSlideShow";
@@ -27,6 +33,10 @@ const Home = () => {
             </div>
             <div class = 'socials'>
                 <SocialFollow />
+            </div>
+            <div class = 'calendar'>
+                <p><b><span class = 'inclusive'>FIRE+</span> Upcoming Events</b></p>
+                < Calendar/>
             </div>
             <p class = 'statement'><b>
                 “We are a proud RUSU affiliated club here to create a strong community of engineering and aviation students, staff, academics and professionals.”

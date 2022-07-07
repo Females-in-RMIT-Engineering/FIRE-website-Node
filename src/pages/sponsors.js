@@ -29,37 +29,37 @@ const Sponsors = () => {
           <h2> Platinum </h2>
             <div class = 'SponsorRow'>
               <div class = 'SpnsorColumn'>
-                <img src={JohnHollandLogo} alt = 'John Holland Logo' width = {270} height = {90}/>
+                <img src={JohnHollandLogo} alt = 'John Holland Logo' width = {270} height = {90} class = 'SponsorLogos' />
               </div>
             </div>
 
           <h2> Gold </h2>
             <div class = 'SponsorRow'>
               <div class = 'SpnsorColumn'>
-                <img src={AmazonLogo} alt = 'Amazon Logo' width = {270} height = {90}/>
+                <img src={AmazonLogo} alt = 'Amazon Logo' width = {270} height = {90} class = 'SponsorLogos' />
               </div>
               <div class = 'SpnsorColumn'>
-                <img src={StantecLogo} alt = 'Stantec Logo' width = {270} height = {90}/>
+                <img src={StantecLogo} alt = 'Stantec Logo' width = {270} height = {90} class = 'SponsorLogos' />
               </div>
             </div>
             <div class = 'SponsorRow'>
               <div class = 'SpnsorColumn'>
-                <img src={SystraLogo} alt = 'Systra Logo' width = {270} height = {90}/>
+                <img src={SystraLogo} alt = 'Systra Logo' width = {270} height = {90} class = 'SponsorLogos' />
               </div>
             </div>
 
           <h2> Silver </h2>
             <div class = 'SponsorRow'>
               <div class = 'SpnsorColumn'>
-                <img src={TelstraLogo} alt = 'Telstra Logo' width = {270} height = {90}/>
+                <img src={TelstraLogo} alt = 'Telstra Logo' width = {270} height = {90} class = 'SponsorLogos' />
               </div>
               <div class = 'SpnsorColumn'>
-                <img src={APALogo} alt = 'APA Logo' width = {270} height = {90}/>
+                <img src={APALogo} alt = 'APA Logo' width = {270} height = {90} class = 'SponsorLogos' />
               </div>
             </div>
             <div class = 'SponsorRow'>
               <div class = 'SpnsorColumn'>
-                <img src={AECOMLogo} alt = 'Aecome Logo' width = {270} height = {90}/>
+                <img src={AECOMLogo} alt = 'Aecome Logo' width = {270} height = {90} class = 'SponsorLogos' />
               </div>
             </div>
 
@@ -71,3 +71,7 @@ const Sponsors = () => {
   };
 
   export default Sponsors;
+
+  /* <div class="middle">
+      <div class="text">John Doe</div>
+    </div> */

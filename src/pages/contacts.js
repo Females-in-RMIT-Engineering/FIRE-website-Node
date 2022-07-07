@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 import "./pagesCSS/contacts.css";
 
-import committeePicture from "./images/committeePicture.jpg";
+import committeePicture from "./pagesResources/images/committeePicture.jpg";
   
 const Contacts = () => {
   return (
