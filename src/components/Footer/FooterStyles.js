@@ -1,3 +1,5 @@
+/* eslint-disable */ 
+
 import styles from 'styled-components';
    
 export const BoxFooter = styles.div`

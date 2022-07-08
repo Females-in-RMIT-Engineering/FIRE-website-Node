@@ -28,7 +28,7 @@ const properties = {
 
 const Slideshow = () => {
     return (
-        <>
+        <div>
             <div className="slide-container">
                 <Slide {...properties}>
                     <div className="each-slide">
@@ -51,7 +51,7 @@ const Slideshow = () => {
                     </div>
                 </Slide>
             </div>
-        </>
+        </div>
     )
 }
 

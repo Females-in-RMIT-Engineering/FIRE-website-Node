@@ -1,3 +1,5 @@
+/* eslint-disable */ 
+
 import React from 'react';
 import "./App.css";
 
@@ -15,7 +17,7 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <>
+    <div>
       <Router>
         <Routes>
         <Route path="/" element={<Layout />}>
@@ -33,7 +35,7 @@ function App() {
       <div class = 'footer'>
             <Footer />
       </div>
-    </>
+    </div>
   );
 }
 

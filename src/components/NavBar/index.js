@@ -1,3 +1,5 @@
+/* eslint-disable */ 
+
 import React from 'react';
 import {
   Nav,
@@ -12,7 +14,7 @@ import WebsiteLogo from './FIREWebsiteLogo.png';
   
 const NavigationBar = () => {
   return (
-    <>
+    <div>
       <Nav>
         <Bars />
         <NavMenu>
@@ -44,7 +46,7 @@ const NavigationBar = () => {
           <a class = 'join' href='https://docs.google.com/forms/d/e/1FAIpQLSfhd4fiAH9qcjkvYebNE1pXbK_DYSGB6CfVaE25LLi77exc6Q/viewform' target={'_blank'} rel='noreferrer'>Join the Club</a>
         </NavBtn>
       </Nav>
-    </>
+    </div>
   );
 };
   

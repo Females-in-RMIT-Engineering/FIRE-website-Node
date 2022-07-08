@@ -1,3 +1,5 @@
+/* eslint-disable */ 
+
 import React from 'react';
 import { Helmet } from "react-helmet";
 import Faq from "react-faq-component";

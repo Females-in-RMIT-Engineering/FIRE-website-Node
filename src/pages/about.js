@@ -1,3 +1,5 @@
+/* eslint-disable */ 
+
 import React from 'react';
 import { Helmet } from "react-helmet";
 import "./pagesCSS/about.css";
@@ -37,7 +39,7 @@ function About() {
             <li> Organise STEM volunteering opportunities and promote engineering and aviation to young students. </li>
           </ul>
 
-          <h1><span class = 'differentColor'> Acknowledgement </span> of the Country </h1> 
+          <h1><span class = 'differentColor'> Acknowledgement </span> of Country </h1> 
 
           <p>
             FIRE+ acknowledges the people of the Kulin Nations on whose unceded lands
@@ -50,11 +52,15 @@ function About() {
 
           <p>*insert awards image here*</p>
 
-          <h1><span class = 'differentColor'> Who </span> We are a Part of </h1> 
+          {/* 
+          <h1><span class = 'differentColor'> Who </span> We are a Part of </h1>  
+          */}
+
+          <h1><span class = 'differentColor'> Our </span> Affiliations </h1> 
 
           <div class = 'row'>
             <div class = 'column'>
-              <img src={websitelogo} alt = 'FIRE+ website logo' height={90}/>
+              <img src={websitelogo} alt = 'FIRE+ website logo' height={80}/>
             </div>
             <div class = 'column'>
               <img src={RUSUlogo} alt = 'RUSU logo' height={80}/>
@@ -64,6 +70,7 @@ function About() {
             </div>
           </div>
 
+          <br />
           <br />
         </div>
 
