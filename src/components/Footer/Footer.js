@@ -38,7 +38,7 @@ const Footer = () => {
                 </ColumnFooter>
                 <ColumnFooter>
                     <br /><br />
-                    <FooterLink href="#">Upcoming Events</FooterLink>
+                    <FooterLink href="/upcomingevents">Upcoming Events</FooterLink>
                     <FooterLink href="/faqs">FAQs</FooterLink>
                 </ColumnFooter>
                 <ColumnFooter>
