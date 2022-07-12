@@ -8,6 +8,7 @@ import {
   Bars,
   NavMenu,
   NavBtn,
+  NavBtnLink
 } from './NavbarElements';
 
 import WebsiteLogo from './FIREWebsiteLogo.png'; 
@@ -30,6 +31,9 @@ const NavigationBar = () => {
           <NavLink to='/sponsors' activeStyle>
             Our Sponsors
           </NavLink>
+          <NavLink to='/upcomingevents' activeStyle>
+            Upcoming Events
+          </NavLink>
           <NavLink to='/gallery' activeStyle>
             Gallery
           </NavLink>
@@ -43,7 +47,8 @@ const NavigationBar = () => {
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
-          <a class = 'join' href='https://docs.google.com/forms/d/e/1FAIpQLSfhd4fiAH9qcjkvYebNE1pXbK_DYSGB6CfVaE25LLi77exc6Q/viewform' target={'_blank'} rel='noreferrer'>Join the Club</a>
+          {/*<a class = 'join' href='https://docs.google.com/forms/d/e/1FAIpQLSfhd4fiAH9qcjkvYebNE1pXbK_DYSGB6CfVaE25LLi77exc6Q/viewform' target={'_blank'} rel='noreferrer' style={{textDecoration: "none"}}>Join the Club</a>*/}
+          <NavBtnLink to='https://docs.google.com/forms/d/e/1FAIpQLSfhd4fiAH9qcjkvYebNE1pXbK_DYSGB6CfVaE25LLi77exc6Q/viewform' target={'_blank'} rel='noreferrer'>Join the Club</NavBtnLink>
         </NavBtn>
       </Nav>
     </div>

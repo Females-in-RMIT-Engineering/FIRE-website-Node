@@ -17,8 +17,9 @@ export const NavLink = styled(Link)`
   color: #FFFFFF;
   display: flex;
   align-items: center;
+  font-size: 1rem;
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 0 0.75rem;
   height: 100%;
   cursor: pointer;
   &.active {
@@ -82,19 +83,20 @@ export const NavBtn = styled.nav`
   
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: #808080;
-  padding: 10px 22px;
-  color: #000000;
+  background: #FFFFFF;
+  padding: 10px 16px;
+  color: #C03700;
   outline: none;
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  font-size: 1.05rem;
   text-decoration: none;
   /* Second Nav */
-  margin-left: 24px;
+  margin-left: 25px;
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #808080;
+    background: #D9D9D9;
+    color: #000000;
   }
 `;

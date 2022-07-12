@@ -64,7 +64,7 @@ const Committee = () => {
 
         <div class = 'CommitteeRow'>
           <div class = 'CommitteeColumn'>
-            <CommitteeCard imagesrc={AkshitaImage} name = "Akshita Agrawal" role="xyz"/>
+            <CommitteeCard imagesrc={AkshitaImage} name = "Akshita Agrawal" role="Social Events Officer"/>
           </div>  
         </div>  
 
@@ -72,10 +72,10 @@ const Committee = () => {
 
         <div class = 'CommitteeRow'>
           <div class = 'CommitteeColumn'>
-            <CommitteeCard imagesrc={AparnaImage} name = "Aparna" role="xyz"/>
+            <CommitteeCard imagesrc={AparnaImage} name = "Aparna" role="Social Media Officer"/>
           </div>  
           <div class = 'CommitteeColumn'>
-            <CommitteeCard imagesrc={ApsaraImage} name = "Apsara" role="xyz"/>
+            <CommitteeCard imagesrc={ApsaraImage} name = "Apsara" role="Social Media Officer"/>
           </div>
         </div>  
 

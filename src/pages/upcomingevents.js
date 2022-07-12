@@ -51,7 +51,7 @@ const Events = () => {
                         <div class = 'eventsColumn'>
                             <EventCards 
                                 cardImage = {EngineeringBallCardBanner}
-                                cardImageTitle = "Engineering Ball Banner"
+                                cardImageTitle = "Engineering Ball"
                                 cardContentTitle = "Engineering Ball"
                                 cardContentDesc = "This is your personal invitation to this year's Engineering Ball - Hollywood Glamour."
                                 DialogTitle = "Engineering Ball"
@@ -68,7 +68,7 @@ const Events = () => {
                         <div class = 'eventsColumn'>
                             <EventCards 
                                 cardImage = {NetworkingNightBanner}
-                                cardImageTitle = "Networking Night Banner"
+                                cardImageTitle = "Networking Night"
                                 cardContentTitle = "Networking Night"
                                 cardContentDesc = "Females+ in RMIT Engineering is excited to announce our Exclusive Networking Night!"
                                 DialogTitle = "Exclusive Networking Night"

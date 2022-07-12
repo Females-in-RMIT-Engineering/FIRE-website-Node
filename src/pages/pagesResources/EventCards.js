@@ -50,7 +50,6 @@ const EventCards = (props) => {
                 class = 'eventCard'
                 className={classes.root} 
                 onClick={openDialog}
-                onBackdropClick={closeDialog}
                 style = {{cursor: "pointer", backgroundColor: "#D9D9D9"}}>
                         
                 <CardMedia
