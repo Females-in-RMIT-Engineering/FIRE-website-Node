@@ -26,3 +26,14 @@ a.join{
     font-size: 60px;
     text-align: center;
 }
+
+.eventsContent .eventCards{
+    margin-left: 15%;
+}
+
+.eventsContent .eventsRow{
+    display: grid;
+    margin-right: 15%;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+}

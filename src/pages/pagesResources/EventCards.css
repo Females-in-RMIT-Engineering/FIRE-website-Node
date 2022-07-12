@@ -1,0 +1,14 @@
+.eventCard:hover{
+    transform: translateY(-2px);
+}
+
+.eventLink{
+    text-decoration: none;
+    color: black;
+}
+
+.eventLink:hover{
+    color:  #C03700;
+    transition: 200ms ease-in;
+}
+
