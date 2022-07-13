@@ -10,6 +10,7 @@ function CommitteeCard(props){
             header={props.imagesrc}
             name={props.name}
             positionName={props.role}
+            //style={{cursor: "pointer"}}
         />
     );
 }
