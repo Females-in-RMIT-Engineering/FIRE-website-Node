@@ -6,8 +6,9 @@ import "./pagesCSS/gallery.css";
 //import { render } from "react-dom";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
+import axios from "axios";
 
-import boat1 from "./pagesResources/images/boat-party-1.jpg";
+/*import boat1 from "./pagesResources/images/boat-party-1.jpg";
 import boat2 from "./pagesResources/images/boat-party-2.jpg";
 import boat3 from "./pagesResources/images/boat-party-3.jpg";
 import boat4 from "./pagesResources/images/boat-party-4.jpg";
@@ -22,11 +23,11 @@ import welcome5 from "./pagesResources/images/committeePicture.jpg";
 import industry1 from "./pagesResources/images/industry-night-1.jpg";
 import industry2 from "./pagesResources/images/industry-night-2.jpg";
 import openDay1 from "./pagesResources/images/open-day-1.jpg";
-import studySession1 from "./pagesResources/images/study-session-1.jpg";
+import studySession1 from "./pagesResources/images/study-session-1.jpg"; */
   
 const ImageGallery = () => {
 
-  const photos = [
+ /* const photos = [
     {
       src: boat1,
       width: 3,
@@ -107,7 +108,9 @@ const ImageGallery = () => {
       width: 4,
       height: 3
     }
-  ];
+  ]; */
+
+  const [images, setImages] = React.useState(null);
 
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
@@ -121,6 +124,31 @@ const ImageGallery = () => {
     setCurrentImage(0);
     setViewerIsOpen(false);
   };
+
+  React.useEffect(() => {
+    let shouldCancel = false;
+
+    const call = async () => {
+      const response = await axios.get(
+        "https://google-photos-album-demo2.glitch.me/XKuAkPmTQ5Q5kDwF6"
+      );
+      if (!shouldCancel && response.data && response.data.length > 0) {
+        setImages(
+          response.data.map(url => ({
+            original: `${url}=w1024`,
+            thumbnail: `${url}=w100`,
+            src: `${url}`,
+            width: 7,
+            height: 5
+          }))
+        );
+      }
+    };
+    call();
+    return () => (shouldCancel = true);
+  }, []);
+
+  const gallery = images ? <Gallery photos={images} onClick={openLightbox} /> : null;
 
   return (
     <div>
@@ -139,7 +167,35 @@ const ImageGallery = () => {
 
         <div class = 'galleryImages'>
 
-          <Gallery photos={photos} onClick={openLightbox}/>
+        { gallery }
+        <ModalGateway>
+          {viewerIsOpen ? (
+            <Modal onClose={closeLightbox}>
+              <Carousel
+                currentIndex={currentImage}
+                views={images.map(x => ({
+                  ...x,
+                  srcset: x.srcSet,
+                  caption: x.title
+                }))}
+              />
+            </Modal>
+          ) : null}
+        </ModalGateway>
+
+        </div>
+
+        <br />
+      </div>
+      
+
+    </div>
+  );
+};
+
+export default ImageGallery;
+
+/* <Gallery photos={photos} onClick={openLightbox}/>
           <ModalGateway>
             {viewerIsOpen ? (
               <Modal onClose={closeLightbox}>
@@ -153,16 +209,4 @@ const ImageGallery = () => {
                 />
               </Modal>
             ) : null}
-          </ModalGateway>
-
-        </div>
-
-        <br />
-      </div>
-      
-
-    </div>
-  );
-};
-
-export default ImageGallery;
+          </ModalGateway> */

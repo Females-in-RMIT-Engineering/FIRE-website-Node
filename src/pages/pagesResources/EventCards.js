@@ -35,7 +35,9 @@ const EventCards = (props) => {
 
     const useStyles = makeStyles({
         root: {
-          maxWidth: 300
+          maxWidth: 300,
+          //transition: "transform 0.15s ease-in-out",
+          "&:hover": { transform: "scale3d(1.05, 1.05, 1)" },
         },
         media: {
           height: "230px"
@@ -47,10 +49,11 @@ const EventCards = (props) => {
     return (
         <div class = 'eventsCards'>
             <Card 
-                class = 'eventCard'
+                //class = 'eventCard'
                 className={classes.root} 
-                onClick={openDialog}
-                style = {{cursor: "pointer", backgroundColor: "#D9D9D9"}}>
+                onClick={openDialog} 
+                style = {{cursor: "pointer", backgroundColor: "#D9D9D9"}}
+                >
                         
                 <CardMedia
                     className={classes.media}
@@ -113,6 +116,13 @@ const EventCards = (props) => {
                         <a class='eventLink' href={props.TicketLink} target={"_blank"} rel='noreferrer'>
                             Get Your Tickets Here! &nbsp;&nbsp;
                             <FontAwesomeIcon icon={faTicketSimple} style={{color: "#EC6C09", fontSize: "1.25rem"}}/> 
+                        </a>
+                    <Typography color="textSecondary" className="MuiInputLabel-shrink" style={{transform: "translate(0, 1.5px) scale(0.95)", transformOrigin: "top left"}}>
+                        <br />
+                        Facebook Link
+                    </Typography>
+                        <a class='eventLink' href={props.FacebookLink} target={"_blank"} rel='noreferrer'>
+                            Click here to view more details on our Facebook page.
                             <br />
                             <br />
                         </a>

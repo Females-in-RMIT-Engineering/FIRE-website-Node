@@ -46,6 +46,7 @@ const Events = () => {
                                 VenueLink = "https://www.google.com/maps/place/Garden+Building+RMIT+University/@-37.8080571,144.9641693,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad6439030e6c711:0x9e8c8a7cc366da0e!8m2!3d-37.8080571!4d144.9641693!16s%2Fg%2F11snq0wn3h?authuser=0&hl=en"
                                 DialogVenue = "RMIT Garden Building"
                                 TicketLink = "https://events.humanitix.com/the-fire-scavenger-hunt?fbclid=IwAR0KiDr77qSNrOFCWp8rk0_HcP2zJjI5231BU6MS0Mh6KBSfJE6f37wWCWM"
+                                FacebookLink = "https://www.facebook.com/events/402814838430278?ref=newsfeed"
                             />
                         </div>
 
@@ -63,6 +64,7 @@ const Events = () => {
                                 VenueLink = "https://www.google.com/maps/place/Building+56,+115+Queensberry+St,+Carlton+VIC+3053/@-37.8051266,144.9633401,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad642cdeabcedc9:0xebbe1eb29498b36c!8m2!3d-37.8051266!4d144.9655288"
                                 DialogVenue = "115 Queensberry street"
                                 TicketLink = "https://events.humanitix.com/australian-synchrotron-tour?fbclid=IwAR1AMO027N96ulxja-LASZtghpCzadDGWlOEF6_n_J3NunYCOfgz2AC_FwI"
+                                FacebookLink = "https://www.facebook.com/firengineering/photos/a.2357155807710809/5274719235954437"
                             />
                         </div>
 
@@ -80,6 +82,7 @@ const Events = () => {
                                 VenueLink = "https://www.google.com/maps/place/113+Swanston+St,+Melbourne+VIC+3000,+Australia/@-37.814975,144.965895,16z/data=!4m5!3m4!1s0x6ad642b5c366a7ed:0xdf015a43a8c2f167!8m2!3d-37.8149747!4d144.9658948?hl=en-IN"
                                 DialogVenue = "RMIT, The Capitol"
                                 TicketLink = "https://events.humanitix.com/fire-exclusive-networking-night"
+                                FacebookLink = "https://www.facebook.com/firengineering/photos/a.2285553004871090/5220462431380118/"
                             />
                         </div>
 
@@ -97,6 +100,7 @@ const Events = () => {
                                 VenueLink = "https://www.google.com/maps/place/Melbourne+Pavillion/@-37.7892068,144.9341968,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad65d1ed7bcd833:0x207ba20d64e7b486!8m2!3d-37.7891529!4d144.9361857"
                                 DialogVenue = "Melbourne Pavillion"
                                 TicketLink = "https://events.humanitix.com/rmit-engineering-ball-2022?fbclid=IwAR32IKMVzSrsXQslcjaqQrJGZp1dftUPbDutdJ0n53PAQy8zcVHEZZEqeGI"
+                                FacebookLink = "https://www.facebook.com/events/538807527624708?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D"
                             />
                         </div>
 

@@ -15,27 +15,27 @@ function SocialFollow() {
   return (
     <div class="social-container">
 
-      <a target={"_blank"} rel='noreferrer' href="https://www.instagram.com/firengineering_/" class="social">
+      <a title='FIRE+ Instagram' target={"_blank"} rel='noreferrer' href="https://www.instagram.com/firengineering_/" class="social">
         <FontAwesomeIcon icon={faInstagramSquare} size="3x" /> 
       </a>
 
-      <a target={"_blank"} rel='noreferrer' href="https://www.facebook.com/firengineering/" class="social">
+      <a title='FIRE+ Facebook' target={"_blank"} rel='noreferrer' href="https://www.facebook.com/firengineering/" class="social">
         <FontAwesomeIcon icon={faFacebook} size="3x" />
       </a>
 
-      <a target={"_blank"} rel='noreferrer' href="https://www.linkedin.com/company/firengineering/" class="social">
+      <a title='FIRE+ Linkedin' target={"_blank"} rel='noreferrer' href="https://www.linkedin.com/company/firengineering/" class="social">
         <FontAwesomeIcon icon={faLinkedin} size="3x" />
       </a>
 
-      <a target={"_blank"} rel='noreferrer' href="https://discord.com/channels/799421462598647851/799422177912684596" class="social">
+      <a title='FIRE+ Discord' target={"_blank"} rel='noreferrer' href="https://discord.com/channels/799421462598647851/799422177912684596" class="social">
         <FontAwesomeIcon icon={faDiscord} size="3x" />
       </a>
 
-      <a target={"_blank"} rel='noreferrer' href="https://www.tiktok.com/@firengineering?lang=en" class="social">
+      <a title='FIRE+ Tiktok' target={"_blank"} rel='noreferrer' href="https://www.tiktok.com/@firengineering?lang=en" class="social">
         <FontAwesomeIcon icon={faTiktok} size="3x" />
       </a>
 
-      <a target={"_blank"} rel='noreferrer' href="mailto:firengineering@rmit.edu.au" class="social">
+      <a title='FIRE+ Mail' target={"_blank"} rel='noreferrer' href="mailto:firengineering@rmit.edu.au" class="social">
         <FontAwesomeIcon icon={faEnvelope} size="3x" />
       </a>
 

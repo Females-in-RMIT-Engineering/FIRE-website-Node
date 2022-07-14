@@ -32,7 +32,11 @@ a.join{
     font-size: 20px;
 }
 
-/*.galleryContent .galleryImages{
-    margin-left: 15%;
-    margin-right: 15%;
+.galleryContent .galleryImages{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* .galleryContent .galleryImages:hover{
+    transform: scale3d(1.05, 1.05, 1)
 }*/
