@@ -37,6 +37,11 @@ a.join{
     margin-right: 2%;
 }
 
+.galleryContent .galleryLoadingSign{
+    justify-content: center;
+    margin-left: 42%;
+}
+
 /* .galleryContent .galleryImages:hover{
     transform: scale3d(1.05, 1.05, 1)
 }*/
