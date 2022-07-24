@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import Calendar from "@ericz1803/react-google-calendar";
 
 const API_KEY = "AIzaSyB6t7lcRDHvKdH_pcJ1mlCwhbO-krDntJg";
@@ -48,4 +48,4 @@ export default class EventCalendar extends React.Component {
     }
 }
 
-//export default EventCalendar;
+//export default EventCalendar;*/
