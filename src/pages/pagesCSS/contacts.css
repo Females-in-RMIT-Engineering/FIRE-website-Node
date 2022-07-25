@@ -44,13 +44,19 @@ a.join{
 
 .ContactContent .ContactRow{
   display: grid;
+  padding: 2rem;
   margin-left: 12%;
   margin-right: 15%;
-  grid-template-columns: repeat(auto-fill, 
-                         minmax(185px, 1fr));
-  grid-gap: 225px;
+  /*grid-template-columns: repeat(auto-fill, 
+                         minmax(185px, 1fr));*/
+  grid-template-columns: 300px 1fr;
+  gap: 17rem;
+  max-width: 800px;
+  
+  
+  /*column-gap: 240px;*/
    
-  @media (max-width: 794px) {
+  @media (max-width: 650px) {
     grid-template-columns: repeat(auto-fill, 
                            minmax(200px, 1fr));
   }
