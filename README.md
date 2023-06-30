@@ -6,3 +6,11 @@ All the libraries should already be installed in the node_modules folder.
 
 run the app: 
 # npm start
+
+## Helpful Tips
+
+```node_modules``` folder not exist?
+```
+npm config set legacy-peer-deps true
+npm i
+```
