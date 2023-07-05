@@ -14,3 +14,10 @@ run the app:
 npm config set legacy-peer-deps true
 npm i
 ```
+
+Issue Solved: Circular dependencies is occured in shelljs due to shelljs's bug. Solve by running the prompt to update all dependencies inlcuding shelljs:
+```
+npm i -g npm-check-updates
+ncu -u
+npm install
+```
