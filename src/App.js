@@ -21,7 +21,7 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/FIRE-website-Node/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="committee" element={<Committee />} />

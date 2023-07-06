@@ -20,28 +20,28 @@ const NavigationBar = () => {
       <Nav>
         <Bars />
         <NavMenu>
-          <NavLogo to='/' title='Home' activeStyle>
+          <NavLogo to='/FIRE-website-Node/' title='Home' activeStyle>
             <img src={WebsiteLogo} alt='FIRE logo' height={85}/>
           </NavLogo>
-          <NavLink to='/about' title='Learn more about FIRE+' activeStyle>
+          <NavLink to='/FIRE-website-Node/about' title='Learn more about FIRE+' activeStyle>
             About Us
           </NavLink>
-          <NavLink to='/committee' title='Meet the FIRE+ Committee' activeStyle>
+          <NavLink to='/FIRE-website-Node/committee' title='Meet the FIRE+ Committee' activeStyle>
             FIRE+ Committee
           </NavLink>
-          <NavLink to='/sponsors' title='Meet our sponsors' activeStyle>
+          <NavLink to='/FIRE-website-Node/sponsors' title='Meet our sponsors' activeStyle>
             Our Sponsors
           </NavLink>
-          <NavLink to='/upcomingevents' title='Find our upcoming events' activeStyle>
+          <NavLink to='/FIRE-website-Node/upcomingevents' title='Find our upcoming events' activeStyle>
             Upcoming Events
           </NavLink>
-          <NavLink to='/gallery' title='Photos of past events' activeStyle>
+          <NavLink to='/FIRE-website-Node/gallery' title='Photos of past events' activeStyle>
             Gallery
           </NavLink>
-          <NavLink to='/contacts' title='Contact FIRE+' activeStyle>
+          <NavLink to='/FIRE-website-Node/contacts' title='Contact FIRE+' activeStyle>
             Contact Us
           </NavLink>
-          <NavLink to='/faqs' title='Frequently Asked Questions' activeStyle>
+          <NavLink to='/FIRE-website-Node/faqs' title='Frequently Asked Questions' activeStyle>
             FAQs
           </NavLink>
           {/* Second Nav */}

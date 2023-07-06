@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/FIRE-website-Node/static/css/main.67c21c99.css",
+    "main.js": "/FIRE-website-Node/static/js/main.e55576fe.js",
+    "static/media/Karen.jpeg": "/FIRE-website-Node/static/media/Karen.52cf729e1099ff99acd7.jpeg",
+    "static/media/Kyla.jpg": "/FIRE-website-Node/static/media/Kyla.8f6e1e720c6027099677.jpg",
+    "static/media/Akshita.jpg": "/FIRE-website-Node/static/media/Akshita.4d9f8d96da01c9af6f82.jpg",
+    "static/media/ScavengerHunt.png": "/FIRE-website-Node/static/media/ScavengerHunt.e45ca8c60482d075fefd.png",
+    "static/media/committeePicture.jpg": "/FIRE-website-Node/static/media/committeePicture.2b8e7defb367ff830d6d.jpg",
+    "static/media/boat-party-1.jpg": "/FIRE-website-Node/static/media/boat-party-1.5e58d852e05179a01945.jpg",
+    "static/media/industry-night-1.jpg": "/FIRE-website-Node/static/media/industry-night-1.c5ebda586b98f64b82f7.jpg",
+    "static/media/boat-party-2.jpg": "/FIRE-website-Node/static/media/boat-party-2.58faf371cdf2e6691cc2.jpg",
+    "static/media/NetworkingNight.jpg": "/FIRE-website-Node/static/media/NetworkingNight.0d5ac19004860d1c3876.jpg",
+    "static/media/welcome-night-2.jpg": "/FIRE-website-Node/static/media/welcome-night-2.397cbb4daf2c66776d15.jpg",
+    "static/media/industry-night-2.jpg": "/FIRE-website-Node/static/media/industry-night-2.a5e88ada59b4097655ef.jpg",
+    "static/media/EngineeringBall.jpg": "/FIRE-website-Node/static/media/EngineeringBall.a4b325533f11e17dd30c.jpg",
+    "static/media/welcome-night-1.jpg": "/FIRE-website-Node/static/media/welcome-night-1.d056d22f1aa376de6c44.jpg",
+    "static/media/EngineeringBallCard.jpg": "/FIRE-website-Node/static/media/EngineeringBallCard.f5db6ccb437e9029c988.jpg",
+    "static/media/load.gif": "/FIRE-website-Node/static/media/load.74c6efb7864698356d45.gif",
+    "static/media/SynchrotronTour.jpg": "/FIRE-website-Node/static/media/SynchrotronTour.1725747365ff5affb618.jpg",
+    "static/media/Victoria.jpeg": "/FIRE-website-Node/static/media/Victoria.7542f9add2b4bf97a9cd.jpeg",
+    "static/media/StantecLogo.png": "/FIRE-website-Node/static/media/StantecLogo.1bebba0583ca148224aa.png",
+    "static/media/Terry.jpeg": "/FIRE-website-Node/static/media/Terry.5a2ad29f37f3cccce9df.jpeg",
+    "static/media/RMITLogo.png": "/FIRE-website-Node/static/media/RMITLogo.0acafbbf9995ffa83167.png",
+    "static/media/TelstraLogo.png": "/FIRE-website-Node/static/media/TelstraLogo.4f48b46e99b79088fbad.png",
+    "static/media/AECOMLogo.png": "/FIRE-website-Node/static/media/AECOMLogo.37cfd5a4df7d0b65f023.png",
+    "static/media/Aparna.jpg": "/FIRE-website-Node/static/media/Aparna.b2e067bde629ff8b5e91.jpg",
+    "static/media/JohnHollandLogo.png": "/FIRE-website-Node/static/media/JohnHollandLogo.4706061baea352105a77.png",
+    "static/media/AmazonLogo.png": "/FIRE-website-Node/static/media/AmazonLogo.aafa3b257b3c76357736.png",
+    "static/media/APALogo.png": "/FIRE-website-Node/static/media/APALogo.0bdbc26c2eb21f1bfae6.png",
+    "static/media/RUSULogo.jpg": "/FIRE-website-Node/static/media/RUSULogo.1c81dc51e6f6fee52fc6.jpg",
+    "static/media/FIREWebsiteLogo.png": "/FIRE-website-Node/static/media/FIREWebsiteLogo.76dc9aff192ade4ded41.png",
+    "static/media/Apsara.jpg": "/FIRE-website-Node/static/media/Apsara.82cda76a3901d5e46ec1.jpg",
+    "static/media/SystraLogo.png": "/FIRE-website-Node/static/media/SystraLogo.7c5e778b7c1e19880d88.png",
+    "index.html": "/FIRE-website-Node/index.html",
+    "main.67c21c99.css.map": "/FIRE-website-Node/static/css/main.67c21c99.css.map",
+    "main.e55576fe.js.map": "/FIRE-website-Node/static/js/main.e55576fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67c21c99.css",
+    "static/js/main.e55576fe.js"
+  ]
+}
