@@ -1,7 +1,11 @@
 {
   "files": {
     "main.css": "/FIRE-website-Node/static/css/main.67c21c99.css",
+<<<<<<< HEAD
     "main.js": "/FIRE-website-Node/static/js/main.e55576fe.js",
+=======
+    "main.js": "/FIRE-website-Node/static/js/main.07e06794.js",
+>>>>>>> 614137901831fff80e14f99504cb82a4c781373f
     "static/media/Karen.jpeg": "/FIRE-website-Node/static/media/Karen.52cf729e1099ff99acd7.jpeg",
     "static/media/Kyla.jpg": "/FIRE-website-Node/static/media/Kyla.8f6e1e720c6027099677.jpg",
     "static/media/Akshita.jpg": "/FIRE-website-Node/static/media/Akshita.4d9f8d96da01c9af6f82.jpg",
@@ -34,10 +38,18 @@
     "static/media/SystraLogo.png": "/FIRE-website-Node/static/media/SystraLogo.7c5e778b7c1e19880d88.png",
     "index.html": "/FIRE-website-Node/index.html",
     "main.67c21c99.css.map": "/FIRE-website-Node/static/css/main.67c21c99.css.map",
+<<<<<<< HEAD
     "main.e55576fe.js.map": "/FIRE-website-Node/static/js/main.e55576fe.js.map"
   },
   "entrypoints": [
     "static/css/main.67c21c99.css",
     "static/js/main.e55576fe.js"
+=======
+    "main.07e06794.js.map": "/FIRE-website-Node/static/js/main.07e06794.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67c21c99.css",
+    "static/js/main.07e06794.js"
+>>>>>>> 614137901831fff80e14f99504cb82a4c781373f
   ]
 }
